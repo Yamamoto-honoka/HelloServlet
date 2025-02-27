@@ -16,4 +16,13 @@
  	<servlet-name>Hello</servlet-name>
  	<url-pattern>/HelloServet/HelloServlet</url-pattern> 
   </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>Welcome</servlet-name>
+  	<servlet-class>WelcomeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Welcome</servlet-name>
+  	<url-pattern>/HelloServlet/WelcomeServlet</url-pattern>
+  </servlet-mapping>
 </web-app>
